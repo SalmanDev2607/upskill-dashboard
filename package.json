@@ -1,0 +1,14 @@
+{
+  "name": "upskill-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Internal learning and coach monitoring dashboard",
+  "scripts": {
+    "server": "node server/index.js",
+    "seed": "node server/seed.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "test": "node --test tests/*.test.js"
+  }
+}
